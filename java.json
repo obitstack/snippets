@@ -1,0 +1,249 @@
+
+{
+	// Place your global snippets here. Each snippet is defined under a snippet name and has a scope, prefix, body and 
+	// description. Add comma separated ids of the languages where the snippet is applicable in the scope field. If scope 
+	// is left empty or omitted, the snippet gets applied to all languages. The prefix is what is 
+	// used to trigger the snippet and the body will be expanded and inserted. Possible variables are: 
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. 
+	// Placeholders with the same ids are connected.
+
+	// 
+	// 
+	// 
+	// 
+	// Public Constants edited by S. Oberdorfer 12-11-2020
+
+	"public static final String":{
+		"prefix": "psf s",
+		"body": [
+			"public static final String $1 = $2;",
+			"$3"
+		],
+		"description": "public constant String"
+	},
+
+	"public static final int":{
+		"prefix": "psf i",
+		"body": [
+			"public static final int $1 = $2;",
+			"$3"
+		],
+		"description": "public constant integer"
+	},
+
+	"public static final double":{
+		"prefix": "psf d",
+		"body": [
+			"public static final Double $1 = $2D;",
+			"$3"
+		],
+		"description": "public constant integer"
+	},
+
+	"public static final Long":{
+		"prefix": "psf l",
+		"body": [
+			"public static final Long $1 = $2L;",
+			"$3"
+		],
+		"description": "public constant Long"
+	},
+
+	"public static final byte":{
+		"prefix": "psf b",
+		"body": [
+			"public static final byte $1 = $2;",
+			"$3"
+		],
+		"description": "public constant Byte"
+	},
+
+	"public static final char":{
+		"prefix": "psf c",
+		"body": [
+			"public static final char $1 = $2;",
+			"$3"
+		],
+		"description": "public constant char"
+	},
+
+	// 
+	// 
+	// 
+	// 
+	// Private Constants edited by S. Oberdorfer 12-11-2020
+
+	"private static final String":{
+		"prefix": "prsf s",
+		"body": [
+			"private static final String $1 = $2;",
+			"$3"
+		],
+		"description": "private constant String"
+	},
+
+	"private static final int":{
+		"prefix": "prsf i",
+		"body": [
+			"private static final int $1 = $2;",
+			"$3"
+		],
+		"description": "private constant integer"
+	},
+
+	"private static final double":{
+		"prefix": "prsf d",
+		"body": [
+			"private static final Double $1 = $2D;",
+			"$3"
+		],
+		"description": "private constant integer"
+	},
+
+	"private static final Long":{
+		"prefix": "prsf l",
+		"body": [
+			"private static final Long $1 = $2L;",
+			"$3"
+		],
+		"description": "private constant Long"
+	},
+
+	"private static final byte":{
+		"prefix": "prsf b",
+		"body": [
+			"private static final byte $1 = $2;",
+			"$3"
+		],
+		"description": "private constant Byte"
+	},
+
+	"private static final char":{
+		"prefix": "prsf c",
+		"body": [
+			"private static final char $1 = $2;",
+			"$3"
+		],
+		"description": "private constant char"
+	},
+
+	// 
+	// 
+	// 
+	// 
+	// Public variables edited by S. Oberdorfer 12-11-2020
+
+	"public String":{
+		"prefix": "pvar s",
+		"body": [
+			"public String $1 = $2;",
+			"$3"
+		],
+		"description": "public var String"
+	},
+
+	"public int":{
+		"prefix": "pvar i",
+		"body": [
+			"public int $1 = $2;",
+			"$3"
+		],
+		"description": "public var integer"
+	},
+
+	"public double":{
+		"prefix": "pvar d",
+		"body": [
+			"public Double $1 = $2D;",
+			"$3"
+		],
+		"description": "public var Double"
+	},
+
+	"public Long":{
+		"prefix": "pvar l",
+		"body": [
+			"public Long $1 = $2L;",
+			"$3"
+		],
+		"description": "public var Long"
+	},
+
+	"public byte":{
+		"prefix": "pvar b",
+		"body": [
+			"public byte $1 = $2;",
+			"$3"
+		],
+		"description": "public var Byte"
+	},
+
+	"public char":{
+		"prefix": "pvar c",
+		"body": [
+			"public char $1 = $2;",
+			"$3"
+		],
+		"description": "public var char"
+	},
+
+	//
+	//
+	// 
+	//  
+	// Private variables edited by S. Oberdorfer 12-11-2020
+
+	"private String":{
+		"prefix": "prvar s",
+		"body": [
+			"private String $1 = $2;",
+			"$3"
+		],
+		"description": "private var String"
+	},
+
+	"private int":{
+		"prefix": "prvar i",
+		"body": [
+			"private int $1 = $2;",
+			"$3"
+		],
+		"description": "private var integer"
+	},
+
+	"private double":{
+		"prefix": "prvar d",
+		"body": [
+			"private Double $1 = $2D;",
+			"$3"
+		],
+		"description": "private var Double"
+	},
+
+	"private Long":{
+		"prefix": "prvar l",
+		"body": [
+			"private Long $1 = $2L;",
+			"$3"
+		],
+		"description": "private var Long"
+	},
+
+	"private byte":{
+		"prefix": "prvar b",
+		"body": [
+			"private byte $1 = $2;",
+			"$3"
+		],
+		"description": "private var Byte"
+	},
+
+	"private char":{
+		"prefix": "prvar c",
+		"body": [
+			"private char $1 = $2;",
+			"$3"
+		],
+		"description": "private var char"
+	},
+}
